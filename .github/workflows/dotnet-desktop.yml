@@ -55,13 +55,19 @@ jobs:
     - uses: actions/upload-artifact@v3
       if: always()
       with:
-        name: report
-        path: bin/Release
+        path: bin/Relase/*.jpg
+        
+    - uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        path:  bin/Relase/index.html 
     
     - name: GitHub Pages
       if: always()
       uses: crazy-max/ghaction-github-pages@v3.1.0
       with:
         build_dir: bin/Release
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
      
