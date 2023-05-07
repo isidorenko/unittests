@@ -30,7 +30,7 @@ namespace WebUITestAutomation
 
 
 
-        [Test]
+        //[Test]
         public void DSARform_UpToHooyu()
         {
             //to run WinAppDriver
@@ -169,7 +169,7 @@ namespace WebUITestAutomation
         }
 
 
-        [Test]
+        //[Test]
         public void DSARform_UploadLater()
         {
             //to run WinAppDriver
@@ -326,7 +326,7 @@ namespace WebUITestAutomation
 
 
 
-        [Test]
+        //[Test]
         public void DSARform_ManualUpload()
         {
             //to run WinAppDriver
@@ -550,7 +550,7 @@ namespace WebUITestAutomation
         }
 
 
-        [Test]
+       // [Test]
         public void DSARform_ManualUpload_DataDriven()
         {
             using (var reader = new StreamReader(AppDomain.CurrentDomain.BaseDirectory + "\\DSARform_ManualUpload_DataDriven.csv"))

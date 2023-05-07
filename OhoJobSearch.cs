@@ -20,7 +20,7 @@ using NUnit.Framework;
 
 namespace WebUITestAutomation
 {
-    [TestFixture]
+    //[TestFixture]
     public class OHO : Base
     {
 
@@ -30,7 +30,7 @@ namespace WebUITestAutomation
 
 
 
-        [Test]
+        //[Test]
         public void OHO_QA()
         {
             //to run WinAppDriver

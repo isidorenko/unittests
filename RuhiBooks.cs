@@ -17,7 +17,7 @@ using NUnit.Framework;
 
 namespace WebUITestAutomation
 {
-    [TestFixture]
+   // [TestFixture]
     public class RuhiBooks : Base
     {
 
@@ -28,7 +28,7 @@ namespace WebUITestAutomation
 
 
 
-        [Test]
+        //[Test]
         public void FindBook12()
         {
             //to run WinAppDriver

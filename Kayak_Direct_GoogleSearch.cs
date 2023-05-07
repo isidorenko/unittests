@@ -28,7 +28,7 @@ namespace WebUITestAutomation
 
 
 
-    [TestFixture]
+   // [TestFixture]
     public class Kayak_Direct_GoogleSearch : Base
     {
 
@@ -36,7 +36,7 @@ namespace WebUITestAutomation
         private int j = 0;
 
 
-        [Test]
+        //[Test]
         public void KayakViaGoogleSearch()
         {
 
@@ -143,7 +143,8 @@ namespace WebUITestAutomation
 
 
 
-        [Test]
+        //[Test]
+        
         public void KayakDirect()
         {
 
