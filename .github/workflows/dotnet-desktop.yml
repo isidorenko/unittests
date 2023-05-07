@@ -52,11 +52,16 @@ jobs:
     - name: Run UnitTests
       run: ./NUnit.ConsoleRunner.3.13.0/tools/nunit3-console.exe  bin/Release/UnitTestProject1.dll
       
+    - uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        name: report
+        path: bin/Release
+    
     - name: GitHub Pages
       if: always()
-      uses: JamesIves/github-pages-deploy-action@v4.4.1
+      uses: crazy-max/ghaction-github-pages@v3.1.0
       with:
-        branch: gh-pages
-        folder: bin/Release
+        build_dir: bin/Release
 
      
