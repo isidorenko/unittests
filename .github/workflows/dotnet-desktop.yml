@@ -55,12 +55,12 @@ jobs:
     - uses: actions/upload-artifact@v3
       if: always()
       with:
-        path: bin/Relase/*.jpg
+        path: bin/Release/*.jpg
         
     - uses: actions/upload-artifact@v3
       if: always()
       with:
-        path:  bin/Relase/index.html 
+        path:  bin/Release/index.html 
     
     - name: GitHub Pages
       if: always()
