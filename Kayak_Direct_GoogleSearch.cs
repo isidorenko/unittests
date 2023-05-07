@@ -45,7 +45,6 @@ namespace WebUITestAutomation
             var options = new ChromeOptions();
             options.AddArgument("no-sandbox");
 
-
             //starting browser
             driver = new ChromeDriver(options);
             driver.Manage().Window.Maximize();
