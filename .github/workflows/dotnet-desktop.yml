@@ -50,4 +50,14 @@ jobs:
         
     - name: Run UnitTests
       run: ./NUnit.ConsoleRunner.3.13.0/tools/nunit3-console.exe  bin/Release/UnitTestProject1.dll
+      
+    - name: Deploy Results
+      run: ./NUnit.ConsoleRunner.3.13.0/tools/nunit3-console.exe  bin/Release/UnitTestProject1.dll
+      
+    - name: GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@v4.4.1
+      with:
+        branch: gh-pages
+        folder: bin/Release
+
      
