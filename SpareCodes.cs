@@ -38,7 +38,7 @@ namespace WebUITestAutomation
 
 
 
-        //[Test]
+        [Test]
         public void SampleSpareCodes()
         {
 

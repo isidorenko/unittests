@@ -41,7 +41,7 @@ namespace WebUITestAutomation
         PersonalInfoMap PersonalInfo;
 
 
-        //[Test]
+        [Test]
         public void PendingAppForPortfolioManagerPosition()
         {
             //Run WinAppDriver
@@ -312,7 +312,7 @@ namespace WebUITestAutomation
         }
 
 
-        //[Test]
+        [Test]
         public void SubmitAppForPortfolioManagerPosition()
         {
             //Run WinAppDriver
