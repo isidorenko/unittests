@@ -28,7 +28,7 @@ namespace WebUITestAutomation
 
 
 
-        //[Test]
+        [Test]
         public void FindBook12()
         {
             //to run WinAppDriver

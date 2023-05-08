@@ -30,7 +30,7 @@ namespace WebUITestAutomation
 
 
 
-        //[Test]
+        [Test]
         public void OHO_QA()
         {
             //to run WinAppDriver
